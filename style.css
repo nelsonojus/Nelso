@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container-Bg {
+    background-color: #b7bade;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+.round {
+    border-radius: 14px;
+    border: 1px solid red;
+    background-color: wheat;
+}
+.round:hover {
+    background-color: red;
+    color: white;
+}
+.navbar-nav {
+    flex: 1;
+    justify-content: center;
+}
+.bg-scroll {
+    background-color: #333;
+}
+
+#tr {
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+}
+.worship-text h3 {
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+}
+.cont-bg {
+    background: url('image/church2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navBckground {
+    background-color: #3D3B40;
+}
+#joinUsimg { 
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); 
+}
+.card img {
+    min-height: 200px;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 8px 14px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .cont-bg
+  }
